@@ -25,15 +25,19 @@ conclusions are generated from the run outputs.
 
 ### Results
 
-Own runs with the default configuration, January 2016 to December 2025, **before transaction
+Own runs with the default configuration, January 2016 to November 2025, **before transaction
 costs**, against the equal-weight industry benchmark. These are in-sample results of a
 replication, not a track record.
 
-| | TEAM on 31 industries |
-|---|---|
-| Information ratio (monthly excess, annualised) | 1.05 |
-| Maximum drawdown of the excess NAV | −13 % |
-| Rebalancing | monthly, equal weight |
+| | TEAM on 31 industries | Equal-weight benchmark |
+|---|---|---|
+| Annualised return | 10.7 % | 0.3 % |
+| Annualised excess return (NAV ratio) | 10.3 % | |
+| Information ratio (monthly excess, annualised) | 1.05 | |
+| Monthly win rate against the benchmark | 58 % | |
+| Maximum drawdown | −33 % | |
+| Maximum drawdown of the excess NAV | −13 % | |
+| Rebalancing | monthly, equal weight | monthly |
 
 ![TEAM strategy NAV and excess NAV against the equal-weight industry benchmark](docs/figures/team_nav.png)
 
