@@ -1,0 +1,14 @@
+# generated data and outputs
+.data/
+output/
+data/*
+!data/README.md
+# environment and build artefacts
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.claude/
+CLAUDE.md
+# third-party PDFs kept locally only
+docs/*.pdf

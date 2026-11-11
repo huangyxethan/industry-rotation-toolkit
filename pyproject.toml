@@ -1,0 +1,15 @@
+[project]
+name = "industry-rotation-toolkit"
+version = "0.1.0"
+description = "Research infrastructure for monthly industry-rotation strategies: point-in-time base layer, factor registry, backtest engine, index-membership aggregation, style-constrained optimiser and chartbook"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "pyarrow>=15",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+]
+
+[tool.setuptools]
+packages = ["etl", "strategy", "strategy.base", "strategy.factors", "strategy.backtest", "strategy.index_pool", "strategy.etf_rotation", "chartbook"]
